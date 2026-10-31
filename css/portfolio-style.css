@@ -1,0 +1,144 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(27, 26, 26);
+    color: white;
+    margin: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+li {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.1rem;
+}
+
+p {
+    line-height: 2.4;
+    font-size: 1.4rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#Header {
+    background-color: rgb(30, 30, 30);
+}
+
+#Home {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    max-width: 1200px;
+    padding: 0px 20px 50px 20px;
+    margin: 0 auto;
+}
+
+#About-me {
+    background-color: rgb(30, 30, 30);
+}
+
+#Projects {
+    background-color: rgb(30, 30, 30);
+}
+
+.view-button {
+    font-size: 1.4rem;
+    padding: 8px 16px 8px 16px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px 0px 40px;
+    border-bottom: 1px solid;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    padding: 50px 20px 50px 20px;
+    margin: 0 auto;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.header-list {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.list-skills {
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+    gap: 60px;
+}
+
+.profile-img {
+    width: 400px;
+}
+
+.skills-logo {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    grid-template-columns: 70px;
+    gap: 5px;
+}
+
+.projects-list {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.project {
+    display: flex;
+    border: 1px solid;
+    width: 600px;
+}
+
+.project-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-pad {
+    padding: 0px 20px 20px 20px;
+}
+
+.img-box {
+    height: 200px;
+}
+
+.about-me {
+    max-width: 600px;
+}
